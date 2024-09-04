@@ -1,6 +1,6 @@
 {
   "name": "tym-razem-zadziala",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "main": "./dist/tym-razem-zadziala.umd.js",
   "module": "./dist/tym-razem-zadziala.es.js",
   "exports": {

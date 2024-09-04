@@ -10,8 +10,8 @@ export default defineConfig({
   build: {
     lib: {
       entry: path.resolve(__dirname, "src/index.js"),
-      name: "fajnyButton",
-      fileName: (format) => `fajnyButton.${format}.js`
+      name: "tym-razem-zadziala",
+      fileName: (format) => `tym-razem-zadziala.${format}.js`
     },
     rollupOptions: {
       external: ["vue"],
