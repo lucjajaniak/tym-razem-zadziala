@@ -1,0 +1,28 @@
+{
+  "name": "tym-razem-zadziala",
+  "version": "0.0.0",
+  "main": "./dist/tym-razem-zadziala.umd.js",
+  "module": "./dist/tym-razem-zadziala.es.js",
+  "exports": {
+    ".": {
+      "import": "./dist/tym-razem-zadziala.es.js",
+      "require": "./dist/tym-razem-zadziala.umd.js"
+    },
+    "./dist/style.css": "./dist/style.css"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.4.29"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.5",
+    "vite": "^5.3.1"
+  }
+}
